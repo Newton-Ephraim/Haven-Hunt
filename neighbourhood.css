@@ -157,12 +157,12 @@ main {
 
 .footer {
   background: var(--primarycolor5-5001, #2b305d);
-  width: 100%;
+  width: 130%;
   height: 10vh;
-  position: absolute;
+  position: relative;
   left: 0px;
-  top: 5671px;
-  overflow: auto;
+  top: 81px;
+  overflow: hidden;
 }
 .twemoji-copyright {
   width: 20px;
@@ -180,7 +180,7 @@ main {
   line-height: var(--light-h6-line-height, 32px);
   font-weight: var(--light-h6-font-weight, 300);
   position: absolute;
-  left: 152px;
+  left: 292px;
   top: 24px;
 }
 .cookies {
@@ -191,7 +191,7 @@ main {
   line-height: var(--light-h6-line-height, 32px);
   font-weight: var(--light-h6-font-weight, 300);
   position: absolute;
-  left: 1246px;
+  left: 1446px;
   top: 22px;
 }
 .terms-of-service {
@@ -202,7 +202,7 @@ main {
   line-height: var(--light-h6-line-height, 32px);
   font-weight: var(--light-h6-font-weight, 300);
   position: absolute;
-  left: 1061px;
+  left: 1261px;
   top: 22px;
 }
 .privacy-policy {
@@ -213,7 +213,7 @@ main {
   line-height: var(--light-h6-line-height, 32px);
   font-weight: var(--light-h6-font-weight, 300);
   position: absolute;
-  left: 900px;
+  left: 1100px;
   top: 22px;
 }
 .frame-174-default {
