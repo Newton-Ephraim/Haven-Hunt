@@ -428,6 +428,12 @@ footer {
   padding-left: 1rem;
 }
 
+.Email-SignUp a:hover {
+    color: white;
+  background-color: #01073d;
+  padding: 0.03rem;
+}
+
 .Email-SignUp {
   display: flex;
   flex-direction: column;
