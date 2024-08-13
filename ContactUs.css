@@ -68,6 +68,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 60vh;
+  min-width: 100%;
 }
 
 .Contact-Us h1 {
