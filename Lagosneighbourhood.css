@@ -6,6 +6,7 @@
 
 body   {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 @media (min-width:601px) and (max-width:1023px) {
