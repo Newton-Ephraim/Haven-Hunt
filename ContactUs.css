@@ -64,10 +64,11 @@ header {
   background-image: url(images/Hero.jpeg);
   display: flex;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   justify-content: center;
   align-items: center;
   min-height: 60vh;
+  min-width: 100%;
 }
 
 .Contact-Us h1 {
