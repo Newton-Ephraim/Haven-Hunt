@@ -31,6 +31,10 @@ nav {
   top: 0;
 }
 
+nav div a:hover {
+  background-color: #01073d;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
