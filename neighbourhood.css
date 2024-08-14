@@ -55,7 +55,7 @@ body{
 
 .neighborhood {
   background: #ffffff;
-  height: 6159px;
+  height: 5680px;
   position: relative;
   overflow: hidden;
   
@@ -1238,7 +1238,7 @@ main {
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  min-width: 80.63rem;
+  min-width: 132.9rem;
   left:8rem;
   top:3rem;
   position: relative;
