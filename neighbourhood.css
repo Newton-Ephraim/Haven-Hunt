@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
-body   {
-    font-size: 62.5%;
-    font-family: var(--bold-p1-font-family, "SpaceGrotesk-Bold", sans-serif);
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Space Grotesk", sans-serif;
 }
 
 /*@media (min-width:601px) and (max-width:1023px){
@@ -48,7 +53,7 @@ body   {
 
   
 
-i.neighborhood {
+.neighborhood {
   background: #ffffff;
   height: 6159px;
   position: relative;
@@ -75,16 +80,12 @@ i.neighborhood {
   display: flex;
   gap: 1rem;
   color:#ffffff;
-  font-family: var(
-      --regular-h4-font-family,
-      "SpaceGrotesk-Regular",
-      sans-serif
-    )
 }
 
 .logo-item {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .navigation-menu {
@@ -100,13 +101,8 @@ i.neighborhood {
   padding: 2rem 1rem;
   border-radius: 5px;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: bold;
-  font-family: var(
-      --regular-h4-font-family,
-      "SpaceGrotesk-Regular",
-      sans-serif
-    );
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -150,7 +146,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
