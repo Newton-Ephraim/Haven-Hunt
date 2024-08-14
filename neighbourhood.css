@@ -65,7 +65,7 @@ body{
   background-color: #01073d;
   padding: 1rem;
   max-width: 100%;
-  height:13vh;
+  height:10vh;
 }
 
 .header-content {
@@ -152,7 +152,7 @@ main {
 }
 
 .footer {
-  background: var(--primarycolor5-5001, #2b305d);
+  background: #2b305d;
   width: 130%;
   height: 10vh;
   position: relative;
@@ -171,10 +171,10 @@ main {
 ._2024-haven-hunt-allrights-reserved {
   color: #ffffff;
   text-align: left;
-  font-family: var(--light-h6-font-family, "SpaceGrotesk-Light", sans-serif);
-  font-size: var(--light-h6-font-size, 19.200000762939453px);
-  line-height: var(--light-h6-line-height, 32px);
-  font-weight: var(--light-h6-font-weight, 300);
+  font-family: "SpaceGrotesk-Light", sans-serif;
+  font-size: 19.200000762939453px;
+  line-height: 32px;
+  font-weight: 300;
   position: absolute;
   left: 292px;
   top: 24px;
@@ -182,10 +182,10 @@ main {
 .cookies {
   color: #ffffff;
   text-align: left;
-  font-family: var(--light-h6-font-family, "SpaceGrotesk-Light", sans-serif);
-  font-size: var(--light-h6-font-size, 19.200000762939453px);
-  line-height: var(--light-h6-line-height, 32px);
-  font-weight: var(--light-h6-font-weight, 300);
+  font-family:  "SpaceGrotesk-Light", sans-serif;
+  font-size: 19.200000762939453px;
+  line-height: 32px;
+  font-weight:  300;
   position: absolute;
   left: 1446px;
   top: 22px;
@@ -193,10 +193,10 @@ main {
 .terms-of-service {
   color: #ffffff;
   text-align: left;
-  font-family: var(--light-h6-font-family, "SpaceGrotesk-Light", sans-serif);
-  font-size: var(--light-h6-font-size, 19.200000762939453px);
-  line-height: var(--light-h6-line-height, 32px);
-  font-weight: var(--light-h6-font-weight, 300);
+  font-family: "SpaceGrotesk-Light", sans-serif;
+  font-size:  19.200000762939453px;
+  line-height: 32px;
+  font-weight: 300;
   position: absolute;
   left: 1261px;
   top: 22px;
@@ -204,16 +204,16 @@ main {
 .privacy-policy {
   color: #ffffff;
   text-align: left;
-  font-family: var(--light-h6-font-family, "SpaceGrotesk-Light", sans-serif);
-  font-size: var(--light-h6-font-size, 19.200000762939453px);
-  line-height: var(--light-h6-line-height, 32px);
-  font-weight: var(--light-h6-font-weight, 300);
+  font-family:  "SpaceGrotesk-Light", sans-serif;
+  font-size:  19.200000762939453px;
+  line-height:  32px;
+  font-weight:  300;
   position: absolute;
   left: 1100px;
   top: 22px;
 }
 .frame-174-default {
-  background: var(--primarycolor5-6001, #01073d);
+  background: #01073d;
   padding: 4px 120px 4px 120px;
   display: flex;
   flex-direction: column;
@@ -290,12 +290,12 @@ main {
   position: relative;
 }
 .neighborhood-guide {
-  color: var(--secondarycolor2-1001, #ffffff);
+  color: #ffffff;
   text-align: center;
-  font-family: var(--bold-p1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-p1-font-size, 16px);
-  line-height: var(--bold-p1-line-height, 24px);
-  font-weight: var(--bold-p1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size:  16px;
+  line-height:  24px;
+  font-weight:  700;
   position: relative;
   flex: 1;
 }
@@ -311,21 +311,21 @@ main {
   position: relative;
 }
 .neighborhood-guide2 {
-  color: var(--secondarycolor2-1001, #ffffff);
+  color:  #ffffff;
   text-align: center;
-  font-family: var(--bold-p1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-p1-font-size, 16px);
-  line-height: var(--bold-p1-line-height, 24px);
-  font-weight: var(--bold-p1-font-weight, 700);
+  font-family:  "SpaceGrotesk-Bold", sans-serif;
+  font-size:  16px;
+  line-height:  24px;
+  font-weight: 700;
   position: relative;
 }
 .neighborhood-guide3 {
-  color: var(--secondarycolor3-1001, #fcfcfc);
+  color:  #fcfcfc;
   text-align: center;
-  font-family: var(--bold-p1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-p1-font-size, 16px);
-  line-height: var(--bold-p1-line-height, 24px);
-  font-weight: var(--bold-p1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size:  16px;
+  line-height: 24px;
+  font-weight: 700;
   position: relative;
   flex: 1;
 }
@@ -341,12 +341,12 @@ main {
   position: relative;
 }
 .sign-up {
-  color: var(--secondarycolor2-6001, #ffffff);
+  color:  #ffffff;
   text-align: center;
-  font-family: var(--bold-p1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-p1-font-size, 16px);
-  line-height: var(--bold-p1-line-height, 24px);
-  font-weight: var(--bold-p1-font-weight, 700);
+  font-family:  "SpaceGrotesk-Bold", sans-serif;
+  font-size: 16px;
+  line-height:  24px;
+  font-weight: 700;
   position: relative;
 }
 .frame-4392 {
@@ -362,27 +362,27 @@ main {
   position: relative;
 }
 .sign-up2 {
-  color: var(--secondarycolor2-6001, #ffffff);
+  color:  #ffffff;
   text-align: center;
-  font-family: var(--bold-p1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-p1-font-size, 16px);
-  line-height: var(--bold-p1-line-height, 24px);
-  font-weight: var(--bold-p1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
   position: relative;
   flex: 1;
 }
 .middle-container {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
-  row-gap: 1rem;
+  gap: 1rem;
+  row-gap:0;
   align-items: center;
   justify-content: center;
-  width: 90rem;
+  width: 100%;
   position: absolute;
   left: 25px;
   top: 780px;
-  padding-left: 5rem;
+  padding-left: 7rem;
 }
 .middle-content-item {
   align-self: stretch;
@@ -415,10 +415,10 @@ main {
 .explore-lagos {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size:  47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: absolute;
   left: 439px;
   top: 121px;
@@ -448,10 +448,10 @@ main {
 .explore-rivers {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: absolute;
   right: 25.94%;
   left: 21.96%;
@@ -484,10 +484,10 @@ main {
 .explore-oyo {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height:  32px;
+  font-weight: 700;
   position: absolute;
   right: 30%;
   left: 30%;
@@ -520,10 +520,10 @@ main {
 .explore-asaba {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height:  32px;
+  font-weight:700;
   position: absolute;
   right: 26.38%;
   left: 26.38%;
@@ -556,10 +556,10 @@ main {
 .explore-ogun {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: absolute;
   right: 37.17%;
   left: 37.25%;
@@ -592,10 +592,10 @@ main {
 .explore-enugu {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family:"SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: absolute;
   right: 36.25%;
   left: 36.25%;
@@ -628,10 +628,10 @@ main {
 .explore-abuja {
   color: #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: absolute;
   right: 17.49%;
   left: 17.49%;
@@ -673,22 +673,22 @@ main {
   position: relative;
 }
 .how-to-use-this-guide {
-  color: var(--primarycolor5-6001, #01073d);
+  color:  #01073d;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: relative;
   align-self: stretch;
 }
 .our-neighborhood-guide-is-designed-to-help-you-explore-and-compare-different-areas-with-ease-here-s-how-to-make-the-most-of-it {
-  color: var(--primarycolor5-5001, #2b305d);
+  color:  #2b305d;
   text-align: center;
-  font-family: var(--medium-h4-font-family, "SpaceGrotesk-Medium", sans-serif);
-  font-size: var(--medium-h4-font-size, 27.649999618530273px);
-  line-height: var(--medium-h4-line-height, 32px);
-  font-weight: var(--medium-h4-font-weight, 500);
+  font-family:  "SpaceGrotesk-Medium", sans-serif;
+  font-size:  27.649999618530273px;
+  line-height: 32px;
+  font-weight: 500;
   position: relative;
   align-self: stretch;
 }
@@ -704,7 +704,7 @@ main {
   position: relative;
 }
 .component-29 {
-  background: var(--secondarycolor2-1001, #ffffff);
+  background:  #ffffff;
   padding: 14px 150px 14px 150px;
   display: flex;
   flex-direction: column;
@@ -733,11 +733,13 @@ main {
   width: 357px;
   height: 357px;
   position: relative;
+  top:30px;
+  left:80px;
   overflow: hidden;
 }
 
 .search-glass img {
-  height: 18rem;
+  height: 20rem;
 
 }
 .group {
@@ -798,12 +800,12 @@ main {
   position: relative;
 }
 .use-our-search-bar-to-find-specific-neighborhoods-apply-filters-to-narrow-down-your-search-based-on-criteria-such-as-proximity-to-schools-public-transport-parks-and-more {
-  color: var(--primarycolor5-6001, #01073d);
+  color: #01073d;
   text-align: left;
-  font-family: var(--medium-h5-font-family, "SpaceGrotesk-Medium", sans-serif);
-  font-size: var(--medium-h5-font-size, 23.040000915527344px);
-  line-height: var(--medium-h5-line-height, 32px);
-  font-weight: var(--medium-h5-font-weight, 500);
+  font-family:  "SpaceGrotesk-Medium", sans-serif;
+  font-size: 23.040000915527344px;
+  line-height:  32px;
+  font-weight:  500;
   position: relative;
   width: 531px;
 }
@@ -816,12 +818,12 @@ main {
   overflow: hidden;
 }
 .browse-through-our-list-of-neighborhoods-each-listing-provides-a-brief-overview-key-features-and-an-image-to-give-you-a-snapshot-of-the-area {
-  color: var(--primarycolor5-6001, #01073d);
+  color: #01073d;
   text-align: left;
-  font-family: var(--medium-h5-font-family, "SpaceGrotesk-Medium", sans-serif);
-  font-size: var(--medium-h5-font-size, 23.040000915527344px);
-  line-height: var(--medium-h5-line-height, 32px);
-  font-weight: var(--medium-h5-font-weight, 500);
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size:  23.040000915527344px;
+  line-height:  32px;
+  font-weight:  500;
   position: absolute;
   left: 158px;
   top: 133px;
@@ -853,7 +855,7 @@ main {
 }
 
 .overview img {
-  height: 25rem;
+  height: 30rem;
 }
 
 .floor {
@@ -928,12 +930,12 @@ main {
   overflow: hidden;
 }
 .click-on-any-neighborhood-to-access-detailed-information-learn-about-the-community-s-history-amenities-local-attractions-and-real-estate-options {
-  color: var(--primarycolor5-6001, #01073d);
+  color:  #01073d;
   text-align: left;
-  font-family: var(--medium-h5-font-family, "SpaceGrotesk-Medium", sans-serif);
-  font-size: var(--medium-h5-font-size, 23.040000915527344px);
-  line-height: var(--medium-h5-line-height, 32px);
-  font-weight: var(--medium-h5-font-weight, 500);
+  font-family:  "SpaceGrotesk-Medium", sans-serif;
+  font-size:  23.040000915527344px;
+  line-height: 32px;
+  font-weight:  500;
   position: absolute;
   left: 706px;
   top: 168px;
@@ -943,13 +945,13 @@ main {
   width: 550.49px;
   height: 406px;
   position: absolute;
-  left: 36px;
+  left: 46px;
   top: -33px;
   overflow: hidden;
 }
 
 .browse-1 img {
-  height:25rem;
+  height:30rem;
 }
 .device2 {
   height: auto;
@@ -987,13 +989,13 @@ main {
   overflow: visible;
 }
 .testimonial-container {
-  background: var(--primarycolor5-6001, #01073d);
+  background: #01073d;
   align-self:stretch;
   flex-shrink: 0;
-  height: 944px;
-  width: 1700px;
+  height: 114vh;
+  width: 1200vw;
+  right: 9.5rem;
   position: relative;
-  right: 6rem;
   overflow: hidden;
 }
 .frame-1011 {
@@ -1009,22 +1011,22 @@ main {
   top: 220px;
 }
 .resident-testimonials {
-  color: var(--secondarycolor2-1001, #ffffff);
+  color:  #ffffff;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family:  "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight: 700;
   position: relative;
   align-self: stretch;
 }
 .love-neighborhood{
-  color: var(--secondarycolor2-1001, #ffffff);
+  color:  #ffffff;
   text-align: center;
-  font-family: var(--medium-h4-font-family, "SpaceGrotesk-Medium", sans-serif);
-  font-size: var(--medium-h4-font-size, 27.649999618530273px);
-  line-height: var(--medium-h4-line-height, 32px);
-  font-weight: var(--medium-h4-font-weight, 500);
+  font-family: "SpaceGrotesk-Medium", sans-serif;
+  font-size:  27.649999618530273px;
+  line-height: 32px;
+  font-weight: 500;
   position: relative;
   align-self: stretch;
 }
@@ -1078,10 +1080,10 @@ main {
 .rashaad-oluwatobi {
   color: #000000;
   text-align: left;
-  font-family: var(--bold-h6-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h6-font-size, 19.200000762939453px);
-  line-height: var(--bold-h6-line-height, 32px);
-  font-weight: var(--bold-h6-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size:  19.200000762939453px;
+  line-height: 32px;
+  font-weight: 700;
   position: relative;
   align-self: stretch;
 }
@@ -1130,17 +1132,13 @@ main {
   position: relative;
   overflow: visible;
 }
-.if-you-re-looking-to-find-a-house-with-ease-and-less-stress-then-home-haven-is-for-you-you-not-only-get-your-money-worth-you-also-don-t-have-to-worry-about-shady-agents-who-don-t-have-your-interests-at-heart {
+.house-with-ease{
   color: #000000;
   text-align: left;
-  font-family: var(
-    --regular-p1-font-family,
-    "SpaceGrotesk-Regular",
-    sans-serif
-  );
-  font-size: var(--regular-p1-font-size, 16px);
-  line-height: var(--regular-p1-line-height, 24px);
-  font-weight: var(--regular-p1-font-weight, 400);
+  font-family: "SpaceGrotesk-Regular",sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
   position: relative;
   align-self: stretch;
 }
@@ -1173,15 +1171,15 @@ main {
 .jessica-ugochi {
   color: #000000;
   text-align: left;
-  font-family: var(--bold-h6-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h6-font-size, 19.200000762939453px);
-  line-height: var(--bold-h6-line-height, 32px);
-  font-weight: var(--bold-h6-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 19.200000762939453px;
+  line-height: 32px;
+  font-weight: 700;
   position: relative;
   align-self: stretch;
-  left:16rem;
+  left:25rem;
   width: 17rem;
-  bottom: 14.5rem;
+  bottom: 23rem;
 
 }
 .ic-baseline-star6 {
@@ -1219,22 +1217,18 @@ main {
   position: relative;
   overflow: visible;
 }
-.i-had-to-relocate-to-abuja-from-enugu-and-i-didn-t-know-what-to-expect-when-it-comes-to-the-finding-an-apartment-over-there-using-home-haven-made-my-house-hunting-so-stress-free-after-i-relocated-as-i-got-an-affordable-house-in-a-nice-neighborhood-they-are-the-best {
+.relocate-to-abuja  {
   color: #000000;
   text-align: left;
-  font-family: var(
-    --regular-p1-font-family,
-    "SpaceGrotesk-Regular",
-    sans-serif
-  );
-  font-size: var(--regular-p1-font-size, 16px);
-  line-height: var(--regular-p1-line-height, 24px);
-  font-weight: var(--regular-p1-font-weight, 400);
+  font-family:"SpaceGrotesk-Regular",sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
   position: absolute;
   align-self: stretch;
-  left:16rem;
-  width: 18rem;
-  bottom: 4.5rem;
+  left:25rem;
+  width: 30rem;
+  bottom: 8rem;
 }
 .faq-container {
   display: flex;
@@ -1250,12 +1244,12 @@ main {
   position: relative;
 }
 .faq {
-  color: var(--primarycolor5-6001, #01073d);
+  color: #01073d;
   text-align: center;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family: "SpaceGrotesk-Bold", sans-serif;
+  font-size: 47.779998779296875px;
+  line-height: 32px;
+  font-weight:  700;
   position: relative;
   align-self: stretch;
 }
@@ -1266,7 +1260,7 @@ main {
   position: relative;
 }
 .faq-item-1 {
-  background: var(--primarycolor5-6001, #01073d);
+  background:  #01073d;
   border-radius: 20px 20px 0px 0px;
   padding: 28px 24px 28px 24px;
   display: flex;
@@ -1287,20 +1281,20 @@ main {
 }
 
 .how-do-i-find-specific-neighborhoods-on-this-page {
-  color: var(--greycolors1-1001, #e0e0e0);
+  color: #e0e0e0;
   text-align: center;
   font-family: var(
     --regular-h4-font-family,
     "SpaceGrotesk-Regular",
     sans-serif
   );
-  font-size: var(--regular-h4-font-size, 27.649999618530273px);
-  line-height: var(--regular-h4-line-height, 32px);
-  font-weight: var(--regular-h4-font-weight, 400);
+  font-size:  27.649999618530273px;
+  line-height: 32px;
+  font-weight: 400;
   position: relative;
 }
 .faq-item-2 {
-  background: var(--primarycolor5-6001, #01073d);
+  background: #01073d;
   padding: 28px 24px 28px 24px;
   display: flex;
   flex-direction: row;
@@ -1321,7 +1315,7 @@ main {
 }
 
 .faq-item-3 {
-  background: var(--primarycolor5-6001, #01073d);
+  background: #01073d;
   border-radius: 0px 0px 20px 20px;
   padding: 28px 24px 28px 24px;
   display: flex;
@@ -1353,10 +1347,10 @@ main {
 .explore-popular-neighborhoods {
   color: #ffffff;
   text-align: left;
-  font-family: var(--bold-h1-font-family, "SpaceGrotesk-Bold", sans-serif);
-  font-size: var(--bold-h1-font-size, 47.779998779296875px);
-  line-height: var(--bold-h1-line-height, 32px);
-  font-weight: var(--bold-h1-font-weight, 700);
+  font-family:"SpaceGrotesk-Bold", sans-serif;
+  font-size:  47.779998779296875px;
+  line-height:  32px;
+  font-weight: 700;
   position: absolute;
   left: 356px;
   top: 312px;
@@ -1382,10 +1376,10 @@ main {
 .discover-the-unique-charm-amenities-and-lifestyle-each-community-has-to-offer {
   color: #ffffff;
   text-align: center;
-  font-family: var(--medium-h2-font-family, "SpaceGrotesk-Medium", sans-serif);
-  font-size: var(--medium-h2-font-size, 39.810001373291016px);
-  line-height: var(--medium-h2-line-height, 32px);
-  font-weight: var(--medium-h2-font-weight, 500);
+  font-family:  "SpaceGrotesk-Medium", sans-serif;
+  font-size:  39.810001373291016px;
+  line-height:  32px;
+  font-weight:  500;
   position: absolute;
   left: 125px;
   top: 351px;
