@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomeHaven</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./dashboard.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -19,22 +19,29 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header>
-      <div class="container">
-        <div class="logo">HH</div>
-        <nav>
-          <ul>
-            <li><a href="./Property1.html">Search properties</a></li>
-            <li><a href="./neighbourhood.html">Neighborhood guide</a></li>
-            <li><a href="./ContactUs.html">Contact Us</a></li>
-            <li><a href="../about/About.html">About Us</a></li>
-            <li><a href="./lagosneighbourhood.html">Request a property</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="./signUp.html">Sign Up</a></li>
-          </ul>
-        </nav>
-      </div>
+       <header>
+      <nav class="navbar">
+        <div class="logo">
+                <a class="logo" href="/pages/dashboard/dashboard.html">HH</a>
+            </div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/pages/propertyOne/Property1.html">Search properties</a></li>
+          <li><a href="/pages/neighbourhood/neighbourhood.html"
+                >Neighborhood guide</a
+              ></li>
+          <li><a href="/pages/contact/ContactUs.html">Contact Us</a></li>
+          <a href="/pages/checkout/checkout.html"
+                >Checkout</a
+              ></li>
+              <li><a href="/pages/about/About.html">About Us</a></li>
+              <li><a href="/pages/login/index.html">Log In</a></li>
+            <li><a href="/pages/signUp/signUp.html">Sign Up</a></li>
+        </ul>
+      </nav>
     </header>
+
 
     <!-- Hero Section -->
     <section class="hero">
@@ -72,37 +79,37 @@
         <h1>Discover a wide range of properties for rent</h1>
         <div class="property-cards">
           <div class="property-card">
-            <img src="./images/image 1.png" alt="3 Bedroom Apartment" />
+            <img src="/images/image 1.png" alt="3 Bedroom Apartment" />
             <h3 class="heading">3 Bedroom Apartment</h3>
             <p>Ikoyi, Lekki</p>
             <p class="price">₦2,500,000/yr</p>
           </div>
           <div class="property-card">
-            <img src="./images/image 2.png" alt="3 Bedroom Bungalow" />
+            <img src="/images/image 2.png" alt="3 Bedroom Bungalow" />
             <h3 class="heading">3 Bedroom Bungalow</h3>
             <p>Osapa, Lekki</p>
             <p class="price">₦4,500,000/yr</p>
           </div>
           <div class="property-card">
-            <img src="./images/image 3.png" alt="2 Bedroom Penthouse" />
+            <img src="/images/image 3.png" alt="2 Bedroom Penthouse" />
             <h3 class="heading">2 Bedroom Penthouse</h3>
             <p>Eko Atlantic</p>
             <p class="price">₦4,500,000/yr</p>
           </div>
           <div class="property-card">
-            <img src="./images/image 4.png" alt="2 Bed Apartment" />
+            <img src="/images/image 4.png" alt="2 Bed Apartment" />
             <h3 class="heading">2 Bed Apartment</h3>
             <p>Ikoyi, Lagos</p>
             <p class="price">₦1,500,000/yr</p>
           </div>
           <div class="property-card">
-            <img src="./images/image 5.png" alt="2 Bedroom Apartment" />
+            <img src="/images/image 5.png" alt="2 Bedroom Apartment" />
             <h3 class="heading">2 Bedroom Apartment</h3>
             <p>Ikoyi, Lagos</p>
             <p class="price">₦800,000/yr</p>
           </div>
           <div class="property-card">
-            <img src="./images/image 6.png" alt="2 Bedroom Penthouse" />
+            <img src="/images/image 6.png" alt="2 Bedroom Penthouse" />
             <h3 class="heading">2 Bedroom Penthouse</h3>
             <p>Osapa, Lekki</p>
             <p class="price">₦1,500,000/yr</p>
@@ -120,13 +127,13 @@
         <div class="property-cards">
           <div class="property-card1">
             <div class="dream-properties">
-              <img src="./images//image 10.png" alt="2 Bedroom Luxury Villa" />
+              <img src="/images//image 10.png" alt="2 Bedroom Luxury Villa" />
               <h3>2 Bedroom Luxury Villa</h3>
               <p class="dream-address">Osapa, Lekki</p>
               <p class="dream-text">₦200,000/night</p>
             </div>
             <div class="dream-properties">
-              <img src="./images/image 8.png" alt="3 Bedroom Penthouse" />
+              <img src="/images/image 8.png" alt="3 Bedroom Penthouse" />
               <h3>3 Bedroom Penthouse</h3>
               <p class="dream-address">Maitama, Abuja</p>
               <p class="dream-text">₦300,000/night</p>
@@ -135,13 +142,13 @@
 
           <div class="property-card1">
             <div class="dream-properties">
-              <img src="./images/image 6.png" alt="Beach front Apartment" />
+              <img src="/images/image 6.png" alt="Beach front Apartment" />
               <h3>Beach front Apartment</h3>
               <p class="dream-address">Oniru, Lekki</p>
               <p class="dream-text">₦200,000/night</p>
             </div>
             <div class="dream-properties">
-              <img src="./images/image 9.png" alt="1 Bedroom Apartment" />
+              <img src="/images/image 9.png" alt="1 Bedroom Apartment" />
               <h3>1 Bedroom Apartment</h3>
               <p class="dream-address">Gwagwalada, Abuja</p>
               <p class="dream-text">₦150,000/night</p>
@@ -159,10 +166,7 @@
         <p>Browse through our selection of houses for sale</p>
         <div class="property-cards">
           <div class="property-card">
-            <img
-              src="./images/image 11.png"
-              alt="3 Bed fully Detached Duplex"
-            />
+            <img src="/images/image 11.png" alt="3 Bed fully Detached Duplex" />
             <div>
               <h3>3 Bed fully Detached Duplex</h3>
               <p>Ikeja GRA, Lagos</p>
@@ -171,10 +175,7 @@
             </div>
           </div>
           <div class="property-card">
-            <img
-              src="./images/image 13.png"
-              alt="3 Bed fully Detached Duplex"
-            />
+            <img src="/images/image 13.png" alt="3 Bed fully Detached Duplex" />
             <div>
               <h3>3 Bed fully Detached Duplex</h3>
               <p>Ikeja GRA, Lagos</p>
@@ -183,10 +184,7 @@
             </div>
           </div>
           <div class="property-card">
-            <img
-              src="./images/image 12.png"
-              alt="3 Bed fully Detached Duplex"
-            />
+            <img src="/images/image 12.png" alt="3 Bed fully Detached Duplex" />
             <div>
               <h3>3 Bed fully Detached Duplex</h3>
               <p>Ikeja GRA, Lagos</p>
@@ -209,7 +207,7 @@
         </p>
         <div class="testimonial-cards">
           <div class="testimonial-card">
-            <img src="./images/image 14.png" alt="Testimonial 1" />
+            <img src="/images/image 14.png" alt="Testimonial 1" />
             <div class="testimonial">
               <p class="testimonial-name">Joseph Jonathan</p>
               <div>
@@ -226,7 +224,7 @@
             </div>
           </div>
           <div class="testimonial-card">
-            <img src="./images/image 15.png" alt="Testimonial 2" />
+            <img src="../../images/image 15.png" alt="Testimonial 2" />
             <div class="testimonial">
               <p class="testimonial-name">Sammy Okafor</p>
               <div>
@@ -252,7 +250,7 @@
       <div class="container">
         <h1>Learn how you can use the site</h1>
         <p>Take a quick tour and learn how to get the most from HavenHunt</p>
-        <img src="./images/Component 113.png" alt="Learn Video" />
+        <img src="/images/Component 113.png" alt="Learn Video" />
       </div>
     </section>
 
@@ -265,11 +263,11 @@
             fingertips.
           </h1>
           <div class="app-buttons">
-            <img src="./images/Download 1.png" alt="App Store" />
-            <img src="./images/Download 2.png" alt="Google Play" />
+            <img src="/images/Download 1.png" alt="App Store" />
+            <img src="/images/Download 2.png" alt="Google Play" />
           </div>
         </div>
-        <img src="./images/iPhone 11 Pro.png" alt="App Preview" />
+        <img src="/images/iPhone 11 Pro.png" alt="App Preview" />
       </div>
     </section>
 
@@ -319,11 +317,11 @@
           <h5>29 Abraham Adesanya road, Ajah, Lagos.</h5>
           <h5>Connect</h5>
           <div class="Connect-img">
-            <img src="./images/devicon_facebook.png" alt="facebook" />
-            <img src="./images/skill-icons_instagram.png" alt="instagram" />
-            <img src="./images/prime_twitter.png" alt="X" />
-            <img src="./images/devicon_linkedin.png" alt="linkedin" />
-            <img src="./images/logos_youtube-icon.png" alt="youtube" />
+            <img src="../../images/devicon_facebook.png" alt="facebook" />
+            <img src="../../images/skill-icons_instagram.png" alt="instagram" />
+            <img src="../../images/prime_twitter.png" alt="X" />
+            <img src="../../images/devicon_linkedin.png" alt="linkedin" />
+            <img src="../../images/logos_youtube-icon.png" alt="youtube" />
           </div>
         </div>
         <div class="Email-SignUp">
@@ -344,5 +342,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="/nav.js"></script>
   </body>
 </html>

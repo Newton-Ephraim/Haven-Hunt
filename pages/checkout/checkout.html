@@ -12,36 +12,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="icon" type="image/logo1.png" href="images/logo1.png" />
+    <link rel="icon" type="image/logo1.png" href="/images/logo1.png" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
     </style>
   </head>
   <body>
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Checkout Page</title>
-        <link rel="stylesheet" href="styles.css" />
-      </head>
-      <body>
         <header>
-          <div class="container">
-            <a class="logo" href="./index.html">HH</a>
-            <nav>
-              <ul>
-                <li><a href="./Property1.html">Search properties</a></li>
-                <li><a href="./neighbourhood.html">Neighborhood guide</a></li>
-                <li><a href="./ContactUs.html">Contact Us</a></li>
-                <li><a href="./About.html">About Us</a></li>
-                <li><a href="./Property2.html">Request a property</a></li>
-                <li><a href="#">Log In</a></li>
-                <li><a href="./signUp.html">Sign Up</a></li>
-              </ul>
-            </nav>
-          </div>
+       <nav class="navbar">
+         <div class="logo">
+                <a class="logo" href="/pages/dashboard/dashboard.html">HH</a>
+            </div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/pages/propertyOne/Property1.html">Search properties</a></li>
+          <li><a href="/pages/neighbourhood/neighbourhood.html"
+                >Neighborhood guide</a
+              ></li>
+          <li><a href="/pages/contact/ContactUs.html">Contact Us</a></li>
+          <a href="/pages/lagosNeighbourhood/lagosneighbourhood.html"
+                >Request a property</a
+              ></li>
+              <li><a href="/pages/about/About.html">About Us</a></li>
+              <li><a href="/pages/login/index.html">Log In</a></li>
+            <li><a href="/pages/signUp/signUp.html">Sign Up</a></li>
+        </ul>
+      </nav>
         </header>
 
         <section class="checkout">
@@ -202,7 +199,7 @@
             </form>
           </div>
         </section>
-      </body>
-    </html>
+      
+                <script src="/nav.js"></script>
   </body>
 </html>

@@ -11,17 +11,24 @@
 
 </head>
 <body>
-    <nav class="navigationBar">
-        <!-- <img src="../images/HH.png" alt="House Hunt Logo"> -->
-        <ul>
-            <li><a class="logo" href="../dashboard/index.html">HH</a></li>
-            <li><a href="../propertyForRent/propertyforrent.html">Search Properties</a></li>
-            <li><a href="../neighbourhood/neighbourhood.html">Neighborhood guide</a></li>
-            <li><a href="../contact/ContactUs.html">Contact Us</a></li>
-            <li><a href="../about/About.html">About Us</a></li>
-            <li><a href="../propertyOne/">Request a Property</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="../signUp.html">Sign Up</a></li>
+      <nav class="navbar">
+          <div class="logo">
+                <a class="logo" href="/pages/dashboard/dashboard.html">HH</a>
+            </div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/pages/propertyOne/Property1.html">Search properties</a></li>
+          <li><a href="/pages/neighbourhood/neighbourhood.html"
+                >Neighborhood guide</a
+              ></li>
+          <li><a href="/pages/contact/ContactUs.html">Contact Us</a></li>
+          <a href="/pages/lagosNeighbourhood/lagosneighbourhood.html"
+                >Request a property</a
+              ></li>
+              <li><a href="/pages/about/About.html">About Us</a></li>
+              <li><a href="/pages/login/index.html">Log In</a></li>
+            <li><a href="/pages/signUp/signUp.html">Sign Up</a></li>
         </ul>
     </nav>
 
@@ -124,10 +131,10 @@
             <div class="tableData1">
                 <h5>Popular States</h5>
                 <ul>
-                    <li><a href="#">Properties in Lagos</a></li>
-                    <li><a href="#">Properties in Lagos</a></li>
-                    <li><a href="#">Properties in Lagos</a></li>
-                    <li><a href="#">Properties in Lagos</a></li>
+                    <li><a href="/pages/checkout/checkout.html">Properties in Lagos</a></li>
+                    <li><a href="/pages/checkout/checkout.html">Properties in Lagos</a></li>
+                   <li><a href="/pages/checkout/checkout.html">Properties in Lagos</a></li>
+                    <li><a href="/pages/checkout/checkout.html">Properties in Lagos</a></li>
                 </ul>
             </div>
             <div class="tableData2">
@@ -203,5 +210,7 @@
     </div>
     </div>
     </footer>
+
+    <script src="/nav.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   font-family: "Space Grotesk", sans-serif;
@@ -25,40 +26,128 @@ button {
 
 header {
   background-color: #01073d;
-  padding: 2rem 2rem;
+  padding: 1rem;
 }
 
-header .container {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
 }
 
-header .logo {
+.logo {
   color: #fff;
   font-size: 3rem;
   font-weight: bold;
 }
 
-header nav ul {
+.burger {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  list-style: none;
 }
 
-header nav ul li a {
-  color: #fff;
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
-header nav ul li a:hover {
+.nav-links a:hover {
   background-color: #fff;
   color: #01073d;
   border-radius: 0.5rem;
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #01073d;
+    backdrop-filter: blur(30px);
+    top: 45px;
+    right: 0;
+    width: 40%;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .nav-links a:hover {
+    color: #01073d;
+    background-color: #fff;
+  }
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .burger {
+    display: block;
+  }
+  .checkout .container {
+    padding: 0 1rem;
+  }
+
+  .checkout-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .nav-links a {
+    font-size: 1.6rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select {
+    font-size: 1.2rem;
+  }
+
+  .checkout-button {
+    font-size: 1.4rem;
+  }
+
+  .security-note {
+    font-size: 1.2rem;
+  }
+
+  .security-note p {
+    font-size: 1rem;
+  }
+}
 .checkout {
   background-color: #fff;
   padding: 4rem 0;

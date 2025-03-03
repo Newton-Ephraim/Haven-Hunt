@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +10,175 @@ body {
 html {
   font-size: 62.5%;
 }
-
 .container {
   width: 90%;
   margin: 0 auto;
   padding: 2rem 0;
+}
+header {
+  background-color: #01073d;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.burger {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.nav-links a:hover {
+  background-color: #fff;
+  color: #01073d;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #01073d;
+    backdrop-filter: blur(30px);
+    top: 45px;
+    right: 0;
+    width: 40%;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .nav-links a:hover {
+    color: #01073d;
+    background-color: #fff;
+  }
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .properties-for-rent h1,
+  .dream-rental-properties h1,
+  .buy-house h1,
+  .testimonials h1,
+  .learn h1,
+  .download-app h1 {
+    font-size: 2.5rem;
+  }
+
+  .property-card,
+  .dream-rental-properties .dream-properties,
+  .buy-house .property-card,
+  .testimonial-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .property-card img,
+  .dream-rental-properties .dream-properties img,
+  .buy-house .property-card img,
+  .testimonial-card img {
+    height: auto;
+  }
+
+  .dream-rental-properties .property-cards {
+    justify-content: center;
+  }
+
+  .download-app .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-app .container .download {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .download-app .container img {
+    width: 20rem;
+  }
+
+  .app-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .app-buttons img {
+    width: 12rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Properties {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletters {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .Connect {
+    align-items: center;
+  }
+
+  .Connect-img {
+    justify-content: center;
+  }
+
+  .Copy {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Privacy {
+    justify-content: center;
+  }
 }
 
 img {
@@ -32,43 +197,6 @@ a {
 
 button {
   cursor: pointer;
-}
-
-/* Header */
-header {
-  background-color: #01073d;
-  padding: 2rem 0;
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header .logo {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-header nav ul li a {
-  color: #fff;
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-}
-
-header nav ul li a:hover {
-  background-color: #fff;
-  color: #01073d;
-  border-radius: 0.5rem;
-  font-weight: 700;
 }
 
 /* Hero Section */
@@ -648,3 +776,4 @@ footer {
   display: flex;
   gap: 2rem;
 }
+

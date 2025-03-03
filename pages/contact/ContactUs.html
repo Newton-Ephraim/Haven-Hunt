@@ -8,36 +8,40 @@
     <title>Contact Us</title>
   </head>
   <body>
-    <nav>
-      <div>
-        <a href="index.html"><img src="images/logo1.png" width="200px" alt="Logo" /></a>
-      </div>
-      <ul>
-        <li><a href="Property1.html">Search properties</a></li>
-        <li><a href="./neighbourhood.html">Neighborhood guide</a></li>
-        <li><a href="./ContactUs.html">Contact Us</a></li>
-        <li><a href="About.html">About Us</a></li>
-        <li><a href="#">Request a property</a></li>
-        <li>
-          <a href="Login.html">Log In</a>
-        </li>
-        <li>
-          <a href="./signUp.html">Sign Up</a>
-        </li>
-      </ul>
-    </nav>
-
     <header>
+       <nav class="navbar">
+         <div class="logo">
+                <a class="logo" href="/pages/dashboard/dashboard.html">HH</a>
+            </div>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/pages/propertyOne/Property1.html">Search properties</a></li>
+          <li><a href="/pages/neighbourhood/neighbourhood.html"
+                >Neighborhood guide</a
+              ></li>
+          <li><a href="/pages/contact/ContactUs.html">Contact Us</a></li>
+          <a href="/pages/lagosNeighbourhood/lagosneighbourhood.html"
+                >Request</a
+              ></li>
+              <li><a href="/pages/about/About.html">About Us</a></li>
+              <li><a href="/pages/login/index.html">Log In</a></li>
+            <li><a href="/pages/signUp/signUp.html">Sign Up</a></li>
+        </ul>
+      </nav>
+        </header>
+
+    <section>
       <div class="Contact-Us">
-        <h1><span>Contact</span> Us</h1>
+        <h1><span>Contact Us</span></h1>
         <h6>Home/Contact Us</h6>
       </div>
-    </header>
+    </section>
 
     <section>
       <div class="Detail">
         <div>
-          <img src="./images/email icon.png" width="65px" alt="Email" />
+          <img src="/images/email icon.png" width="65px" alt="Email" />
           <h5><span>Email Address</span></h5>
         </div>
         <div>
@@ -47,7 +51,7 @@
       </div>
       <div class="Detail">
         <div>
-          <img src="./images/phone icon.png" width="65px" alt="Tel" />
+          <img src="/images/phone icon.png" width="65px" alt="Tel" />
           <h5><span>Phone Number</span></h5>
         </div>
         <div>
@@ -57,7 +61,7 @@
       </div>
       <div class="Detail">
         <div>
-          <img src="./images/email icon.png" width="65px" alt="Location" />
+          <img src="/images/email icon.png" width="65px" alt="Location" />
           <h5><span>Office Location</span></h5>
         </div>
         <div>
@@ -66,7 +70,7 @@
       </div>
       <div class="Detail">
         <div>
-          <img src="images/time.png" width="65px" alt="Timer" />
+          <img src="/images/time.png" width="65px" alt="Timer" />
           <h5><span>Work Day</span></h5>
         </div>
         <div>
@@ -101,7 +105,7 @@
       <div class="Customer">
         <img
           class="xx-img"
-          src="images/Customer.jpeg"
+          src="/images/Customer.jpeg"
           width="510px"
           height="700px"
           alt="Customer Lady"
@@ -116,13 +120,13 @@
         </div>
         <div class="Compliant">
           <div class="Information-Request">
-            <img src="images/other-img.png" width="40px" alt="#" />
+            <img src="/images/other-img.png" width="40px" alt="#" />
             <h5>Freedom of information request</h5>
             <p>How to ask for information about the work of Home Haven</p>
             <p class="SS">Make information request</p>
           </div>
           <div class="Information-Fraud">
-            <img src="images/other-img.png" width="40px" alt="#" />
+            <img src="/images/other-img.png" width="40px" alt="#" />
             <h5>Fraud concern</h5>
             <p>
               For concerns about scams and fraudulent activity or breach of
@@ -131,7 +135,7 @@
             <p class="SS">Raise a Fraud concern</p>
           </div>
           <div class="Information-Compliant">
-            <img src="images/other-img.png" width="40px" alt="#" />
+            <img src="/images/other-img.png" width="40px" alt="#" />
             <h5>Compliant</h5>
             <p>
               if you have a comment or compliant we encourage you to talk to us,
@@ -193,16 +197,16 @@
       </div>
       <div class="newsletters">
         <div class="Connect">
-          <img src="images/logo.png" id="Connect" width="70px" alt="logo" />
+          <img src="/images/logo.png" id="Connect" width="70px" alt="logo" />
           <h5>Address</h5>
           <h5>29 Abraham Adesanya road, Ajah, Lagos.</h5>
           <h5>Connect</h5>
           <div class="Connect-img">
-            <img src="images/facebook.png" alt="facebook" />
-            <img src="images/instagram.png" alt="instagram" />
-            <img src="images/twitter.png" alt="X" />
-            <img src="images/linkedin.png" alt="linkedin" />
-            <img src="images/twitter.png" alt="youtube" />
+            <img src="/images/facebook.png" alt="facebook" />
+            <img src="/images/instagram.png" alt="instagram" />
+            <img src="/images/twitter.png" alt="X" />
+            <img src="/images/linkedin.png" alt="linkedin" />
+            <img src="/images/twitter.png" alt="youtube" />
           </div>
         </div>
         <div class="Email-SignUp">
@@ -223,6 +227,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="/nav.js"></script>
   </body>
 </html>
 
